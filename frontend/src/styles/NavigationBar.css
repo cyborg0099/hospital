@@ -1,0 +1,105 @@
+nav {
+    background-color: #2c3e50; /* Changed background color to a darker blue */
+    padding: 1rem;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; /* Added transition effect */
+  }
+  
+  nav:hover {
+    background-color: #3498db; /* Changed background color on hover to a lighter blue */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  nav svg {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5rem 1.5rem;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+    .nav-item {
+      margin-bottom: 1rem;
+    }
+    .nav-link {
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: white;
+      transition: color 0.3s ease;
+    }
+  }

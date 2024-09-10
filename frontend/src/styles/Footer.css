@@ -1,0 +1,150 @@
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    color: #333;
+  }
+  
+  .quick-links {
+    margin-bottom: 20px;
+  }
+  
+  .quick-links h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .quick-links a:hover {
+    color: #23527c;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #23527c;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #337ab7;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #23527c;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Medium screen and below */
+  @media (max-width: 992px) {
+    .quick-links, .contact-info, .social-icons {
+      margin-bottom: 10px;
+    }
+    .quick-links ul, .contact-info p, .social-icons ul {
+      margin-bottom: 5px;
+    }
+  }
+  
+  /* Small screen and below */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px 0;
+    }
+    .quick-links, .contact-info, .social-icons {
+      margin-bottom: 5px;
+    }
+    .quick-links ul, .contact-info p, .social-icons ul {
+      margin-bottom: 0;
+    }
+    .social-icons li {
+      margin-right: 5px;
+    }
+    .social-icons i {
+      font-size: 18px;
+    }
+  }
+  
+  /* Extra small screen and below */
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px 0;
+    }
+    .quick-links, .contact-info, .social-icons {
+      margin-bottom: 0;
+    }
+    .quick-links ul, .contact-info p, .social-icons ul {
+      margin-bottom: 0;
+    }
+    .social-icons li {
+      margin-right: 2px;
+    }
+    .social-icons i {
+      font-size: 14px;
+    }
+  }
